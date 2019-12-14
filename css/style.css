@@ -135,9 +135,9 @@ h6 {
 #intro .intro-text {
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 250px;
   right: 0;
-  height: calc(50% - 60px);
+  height: calc(50% - 30px);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -211,25 +211,37 @@ h6 {
 #intro .product-screens .product-screen-1 {
   position: absolute;
   z-index: 30;
-  left: calc(50% + 54px);
+  left: calc(10%);
   bottom: 0;
   top: 30px;
+}
+
+#intro .product-screens .product-screen-1 img {
+  width:50%;
 }
 
 #intro .product-screens .product-screen-2 {
   position: absolute;
   z-index: 20;
-  left: calc(50% - 154px);
+  left: calc(50%);
   bottom: 0;
-  top: 90px;
+  top: 30px;
+}
+
+#intro .product-screens .product-screen-2 img {
+  width:50%;
 }
 
 #intro .product-screens .product-screen-3 {
   position: absolute;
   z-index: 10;
-  left: calc(50% - 374px);
+  left: calc(80%);
   bottom: 0;
-  top: 150px;
+  top: 30px;
+}
+
+#intro .product-screens .product-screen-3 img {
+  width:80%;
 }
 
 /*--------------------------------------------------------------
